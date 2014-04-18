@@ -12,6 +12,30 @@ import static junit.framework.Assert.*;
 
 public class NodeTest {
 
+    Node a = new Node();
+    Node b = new Node();
+    Node c = new Node();
+    Node d = new Node();
+    Node e = new Node();
+    Node f = new Node();
+    Node g = new Node();
+    Node h = new Node();
+    Node i = new Node();
+
+    public NodeTest()
+    {
+        a.addChild(f);
+        b.addChild(c);
+        b.addChild(a);
+        c.addChild(e);
+        c.addChild(e);
+        c.addChild(d);
+        d.addChild(e);
+        e.addChild(b);
+        h.addChild(b);
+
+    }
+
     @Test
     public void nodeShouldReachSelf()
     {
@@ -23,40 +47,36 @@ public class NodeTest {
     @Test
     public void nodeAShouldbeConnectToB()
     {
-        Node nodeA = new Node();
-        Node nodeB = new Node();
-        nodeA.addChild(nodeB);
-        assertTrue(nodeA.canReach(nodeB));
+
+        a.addChild(b);
+        assertTrue(a.canReach(b));
     }
 
     @Test
     public void nodeAShouldReachNodeC()
     {
-        Node nodeA = new Node();
-        Node nodeB = new Node();
-        Node nodeC = new Node();
-        nodeA.addChild(nodeB);
-        nodeB.addChild(nodeC);
-        assertTrue(nodeA.canReach(nodeC));
+        a.addChild(b);
+        b.addChild(c);
+        assertTrue(a.canReach(c));
 
     }
 
-   /* @Test
-    public void containsCycle()
+    @Test
+    public void nodeShouldNotBeAbleToReachUnreachableNode()
     {
-        Node nodeA = new Node();
-        Node nodeB = new Node();
-        Node nodeC = new Node();
-        Node nodeD = new Node();
-        Node nodeE = new Node();
+        assertFalse(b.canReach(g));
+    }
 
-        nodeB.addChild(nodeC);
-        nodeB.addChild(nodeA);
-        nodeA.addChild(nodeB);
-        nodeC.addChild(nodeE);
-        nodeB.addChild(nodeD);
 
-    }*/
+    @Test
+    public void nodeShouldBeAbleToReachFurthestNode()
+    {
+        assertTrue(h.canReach(e));
+    }
+
+
+
+
 
 
 }
