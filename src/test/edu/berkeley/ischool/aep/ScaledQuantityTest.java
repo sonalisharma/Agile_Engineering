@@ -99,7 +99,7 @@ public class ScaledQuantityTest{
     @Test
     public void ninetyFahrenheitIsBetterThan0Celsius()
     {
-        assertEquals(new ScaledQuantity(Unit.FAHRENHEIT, 80.0), new ScaledQuantity(Unit.FAHRENHEIT, 20.0).better(new ScaledQuantity(Unit.FAHRENHEIT,100.0)));
+        assertEquals(new ScaledQuantity(Unit.FAHRENHEIT, 100.0), new ScaledQuantity(Unit.FAHRENHEIT, 20.0).better(new ScaledQuantity(Unit.FAHRENHEIT,100.0)));
     }
 
 
@@ -114,8 +114,6 @@ public class ScaledQuantityTest{
         new ScaledQuantity(Unit.INCHES,20)};
 
         Bester bestQuantity = new Bester(quantities);
-
-
 
         assertEquals(new ScaledQuantity(Unit.MILES,10),bestQuantity.best() );
     }

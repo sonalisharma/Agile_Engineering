@@ -61,6 +61,7 @@ public class ChanceTest {
     @Test
     public void SeventyPercentIsBetterThanThirtyPercent()
     {
+
         ArrayList<Chance> chanceList = new ArrayList<Chance>();
 
         chanceList.add(new Chance(.70));

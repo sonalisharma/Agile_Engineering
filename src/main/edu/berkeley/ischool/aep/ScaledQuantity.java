@@ -64,6 +64,7 @@ public class ScaledQuantity  {
         {
             if (other.value < this.unit.convertTo(this.value,other.unit))
             {
+
                 return this;
             }
             else

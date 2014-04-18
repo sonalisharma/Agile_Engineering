@@ -58,7 +58,7 @@ public class Unit {
         else
         {
             //This will be replaced by Kelvin to Fahrenheit conversion calculation.
-            return 0;
+            return size;
         }
     }
     private double convertToCelsius(double size, Unit baseUnit)
@@ -70,7 +70,7 @@ public class Unit {
         else
         {
             //This will be replaced by Kelvin to Celsius conversion calculation.
-            return 0;
+            return size;
         }
     }
     public double convertTo(double size, Unit otherUnit)
@@ -78,6 +78,7 @@ public class Unit {
 
         if(this.type==unitType.TEMPERATURE)
         {
+
             if (otherUnit==Unit.FAHRENHEIT)
             {
                 return convertToFahrenheit(size,this);
