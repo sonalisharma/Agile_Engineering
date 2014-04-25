@@ -23,15 +23,15 @@ public class NodeTest {
 
     public NodeTest()
     {
-        h.addChild(new Link(b,0));
-        b.addChild(new Link(a,0));
-        a.addChild(new Link(f,0));
-        b.addChild(new Link(c,0));
-        c.addChild(new Link(e,0));
-        c.addChild(new Link(e,0));
-        c.addChild(new Link(d,0));
-        d.addChild(new Link(e,0));
-        e.addChild(new Link(b,0));
+        h.addChild(new Link(b,4));
+        b.addChild(new Link(a,1));
+        a.addChild(new Link(f,4));
+        b.addChild(new Link(c,3));
+        c.addChild(new Link(e,1));
+        c.addChild(new Link(e,3));
+        c.addChild(new Link(d,4));
+        d.addChild(new Link(e,6));
+        e.addChild(new Link(b,2));
 
 
     }
@@ -98,6 +98,23 @@ public class NodeTest {
         assertEquals(3,h.hopsTo(g));
     }
 
+    @Test
+    public void htoBShouldCostFour()
+    {
+        assertEquals(4,h.costTo(b));
+    }
+
+    @Test
+    public void btoEShouldCostFour()
+    {
+        assertEquals(4,b.costTo(e));
+    }
+
+    @Test
+    public void htoCShouldCostFour()
+    {
+        assertEquals(7,h.costTo(c));
+    }
 
 
 }

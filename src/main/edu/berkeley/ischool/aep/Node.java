@@ -8,7 +8,7 @@ import java.util.*;
 public class Node {
     List<Link> children = new ArrayList<Link>();
 
-    private static int NO_PATH = Integer.MAX_VALUE;
+    static int NO_PATH = Integer.MAX_VALUE;
 
     public boolean canReach(Node to)
     {
@@ -31,7 +31,7 @@ public class Node {
         for (Link link : children) {
             int childHops = link.hopsTo(node, new HashSet<Node>(visited));
             if (childHops < minChildHops) {
-                minChildHops = 1 + childHops;
+                minChildHops = childHops;
             }
         }
         return minChildHops;
@@ -43,4 +43,23 @@ public class Node {
     }
 
 
+    public int costTo(Node to) {
+        int cost = costTo(to, new HashSet<Node>());
+        if(cost == NO_PATH) throw new unReachableException();
+        return cost;
+    }
+
+    int costTo(Node node, Set<Node> visited)
+    {
+        if (!visited.add(this)) return NO_PATH;
+        if (node.equals(this)) return 0;
+        int champion = Integer.MAX_VALUE;
+        for (Link link : children) {
+            int challenger = link.costTo(node, new HashSet<Node>(visited));
+            if (challenger < champion) {
+                champion = challenger;
+            }
+        }
+        return champion;
+    }
 }
