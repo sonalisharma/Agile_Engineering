@@ -2,18 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="082bc9ec-ee3e-4202-999a-e3ddb8862710" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/edu/berkeley/ischool/aep/Bestable.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/edu/berkeley/ischool/aep/Employees.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/edu/berkeley/ischool/aep/Golf.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/edu/berkeley/ischool/aep/GolfTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/edu/berkeley/ischool/aep/Node.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/edu/berkeley/ischool/aep/NodeTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/edu/berkeley/ischool/aep/TeeGroupAssigner.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/edu/berkeley/ischool/aep/ChanceTest.java" afterPath="$PROJECT_DIR$/src/test/edu/berkeley/ischool/aep/ChanceTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/edu/berkeley/ischool/aep/ScaledQuantity.java" afterPath="$PROJECT_DIR$/src/main/edu/berkeley/ischool/aep/ScaledQuantity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/edu/berkeley/ischool/aep/ScaledQuantityTest.java" afterPath="$PROJECT_DIR$/src/test/edu/berkeley/ischool/aep/ScaledQuantityTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/edu/berkeley/ischool/aep/Unit.java" afterPath="$PROJECT_DIR$/src/main/edu/berkeley/ischool/aep/Unit.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/edu/berkeley/ischool/aep/unReachableException.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/edu/berkeley/ischool/aep/Node.java" afterPath="$PROJECT_DIR$/src/main/edu/berkeley/ischool/aep/Node.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/edu/berkeley/ischool/aep/NodeTest.java" afterPath="$PROJECT_DIR$/src/test/edu/berkeley/ischool/aep/NodeTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/edu/berkeley/ischool/aep/RectangleTest.java" afterPath="$PROJECT_DIR$/src/test/edu/berkeley/ischool/aep/RectangleTest.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="aep.iws" />
@@ -83,59 +75,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="ScaledQuantity.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/edu/berkeley/ischool/aep/ScaledQuantity.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="74" column="5" selection-start="1653" selection-end="1653" vertical-scroll-proportion="0.0" vertical-offset="1110" max-vertical-offset="1830">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Bestable.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/edu/berkeley/ischool/aep/Bestable.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="1" selection-start="131" selection-end="131" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="195">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="GolfTest.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/edu/berkeley/ischool/aep/GolfTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="2" column="0" selection-start="35" selection-end="127" vertical-scroll-proportion="0.0" vertical-offset="129" max-vertical-offset="525">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="RomanNumeral.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/edu/berkeley/ischool/aep/RomanNumeral.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="45" column="36" selection-start="1116" selection-end="1116" vertical-scroll-proportion="0.0" vertical-offset="406" max-vertical-offset="1005">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Golf.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/edu/berkeley/ischool/aep/Golf.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="32" column="40" selection-start="780" selection-end="788" vertical-scroll-proportion="0.0" vertical-offset="324" max-vertical-offset="870">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="NodeTest.java" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="NodeTest.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/edu/berkeley/ischool/aep/NodeTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="39" column="24" selection-start="772" selection-end="777" vertical-scroll-proportion="0.0" vertical-offset="300" max-vertical-offset="1020">
+            <state line="93" column="4" selection-start="1817" selection-end="1817" vertical-scroll-proportion="0.6212121" vertical-offset="1149" max-vertical-offset="1620">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -143,14 +86,22 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Node.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="Node.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/edu/berkeley/ischool/aep/Node.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="17" column="9" selection-start="349" selection-end="349" vertical-scroll-proportion="0.6060606" vertical-offset="15" max-vertical-offset="540">
+            <state line="55" column="5" selection-start="1325" selection-end="1325" vertical-scroll-proportion="0.0" vertical-offset="534" max-vertical-offset="1260">
               <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#211#217#0" expanded="true" />
+                <element signature="e#156#162#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="unReachableException.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/edu/berkeley/ischool/aep/unReachableException.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="5" column="0" selection-start="76" selection-end="139" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="195">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -169,7 +120,6 @@
     <option name="changedFiles">
       <list>
         <option value="$PROJECT_DIR$/src/test/RectangleTest.java" />
-        <option value="$PROJECT_DIR$/src/test/edu/berkeley/ischool/aep/RectangleTest.java" />
         <option value="$PROJECT_DIR$/src/main/edu/berkeley/ischool/aep/Rectangle.java" />
         <option value="$PROJECT_DIR$/src/test/RomanNumeralTest.java" />
         <option value="$PROJECT_DIR$/src/test/edu/berkeley/ischool/aep/RomanNumeralTest.java" />
@@ -195,8 +145,10 @@
         <option value="$PROJECT_DIR$/src/main/edu/berkeley/ischool/aep/TeeGroupAssigner.java" />
         <option value="$PROJECT_DIR$/src/test/edu/berkeley/ischool/aep/GolfTest.java" />
         <option value="$PROJECT_DIR$/src/main/edu/berkeley/ischool/aep/Golf.java" />
-        <option value="$PROJECT_DIR$/src/test/edu/berkeley/ischool/aep/NodeTest.java" />
+        <option value="$PROJECT_DIR$/src/main/edu/berkeley/ischool/aep/unReachableException.java" />
+        <option value="$PROJECT_DIR$/src/test/edu/berkeley/ischool/aep/RectangleTest.java" />
         <option value="$PROJECT_DIR$/src/main/edu/berkeley/ischool/aep/Node.java" />
+        <option value="$PROJECT_DIR$/src/test/edu/berkeley/ischool/aep/NodeTest.java" />
       </list>
     </option>
   </component>
@@ -237,6 +189,10 @@
             <PATH_ELEMENT>
               <option name="myItemId" value="aep" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="External Libraries" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
@@ -293,24 +249,23 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane">
+        <subPane>
           <PATH>
             <PATH_ELEMENT>
               <option name="myItemId" value="aep" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="aep" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value=".idea" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -341,7 +296,7 @@
       <recent name="edu.berkeley.ischool.aep" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.NodeTest (1)">
+  <component name="RunManager" selected="JUnit.NodeTest">
     <configuration default="false" name="ScaledQuantityTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="aep" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
@@ -432,7 +387,13 @@
       </option>
       <envs />
       <patterns />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="" />
+        <option name="TRANSPORT" value="0" />
+        <option name="LOCAL" value="true" />
+      </RunnerSettings>
       <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Debug" />
       <ConfigurationWrapper RunnerId="Run" />
       <method />
     </configuration>
@@ -492,19 +453,6 @@
       <option name="PORT" value="5005" />
       <method />
     </configuration>
-    <configuration default="true" type="Applet" factoryName="Applet">
-      <module name="" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="HTML_FILE_NAME" />
-      <option name="HTML_USED" value="false" />
-      <option name="WIDTH" value="400" />
-      <option name="HEIGHT" value="300" />
-      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <option name="VM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <method />
-    </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
       <module name="" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
@@ -530,6 +478,19 @@
       <envs />
       <properties />
       <listeners />
+      <method />
+    </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module name="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
       <method />
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
@@ -608,17 +569,17 @@
       <method />
     </configuration>
     <list size="6">
-      <item index="0" class="java.lang.String" itemvalue="JUnit.ScaledQuantityTest" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.ScaledQuantityTest.ninetyFahrenheitIsBetterThan0Celsius" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.GolfTest" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.GolfTest.ShouldReturnNumberOfGroupsAs3" />
+      <item index="0" class="java.lang.String" itemvalue="JUnit.GolfTest.ShouldReturnNumberOfGroupsAs3" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.ScaledQuantityTest" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.ScaledQuantityTest.ninetyFahrenheitIsBetterThan0Celsius" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.GolfTest" />
       <item index="4" class="java.lang.String" itemvalue="JUnit.NodeTest" />
       <item index="5" class="java.lang.String" itemvalue="JUnit.NodeTest (1)" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.NodeTest (1)" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.NodeTest" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.NodeTest" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.NodeTest (1)" />
         <item index="2" class="java.lang.String" itemvalue="JUnit.GolfTest" />
         <item index="3" class="java.lang.String" itemvalue="JUnit.ScaledQuantityTest" />
         <item index="4" class="java.lang.String" itemvalue="JUnit.ScaledQuantityTest.ninetyFahrenheitIsBetterThan0Celsius" />
@@ -653,6 +614,15 @@
       <created>1390608065262</created>
       <updated>1390608065262</updated>
     </task>
+    <task id="LOCAL-00001" summary="Initial commit&#10;">
+      <created>1397857481497</created>
+      <updated>1397857481497</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Initial commit&#10;">
+      <created>1397860144119</created>
+      <updated>1397860144119</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -685,7 +655,7 @@
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32879046" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39863715" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.397351" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -696,12 +666,12 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.23424879" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.29801324" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.29801324" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3294702" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
     </layout>
     <layout-to-restore>
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -711,26 +681,26 @@
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32879046" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3294702" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.397351" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32879046" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32781458" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32899022" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.22413793" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32197616" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.23424879" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.29801324" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
     </layout-to-restore>
   </component>
   <component name="Vcs.Log.UiProperties">
-    <option name="RECENTLY_FILTERED_USERS">
+    <option name="RECENTLY_FILTERED_USER_GROUPS">
       <collection />
     </option>
   </component>
@@ -741,6 +711,8 @@
     <option name="myTodoPanelSettings">
       <TodoPanelSettings />
     </option>
+    <MESSAGE value="Initial commit&#10;" />
+    <option name="LAST_COMMIT_MESSAGE" value="Initial commit&#10;" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -750,13 +722,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/edu/berkeley/ischool/aep/Chance.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="31" column="50" selection-start="819" selection-end="819" vertical-scroll-proportion="0.0" vertical-offset="279" max-vertical-offset="810">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/edu/berkeley/ischool/aep/Bester.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="24" column="41" selection-start="600" selection-end="600" vertical-scroll-proportion="0.0" vertical-offset="360" max-vertical-offset="570" />
@@ -764,9 +729,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/edu/berkeley/ischool/aep/Bestable.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="1" selection-start="131" selection-end="131" vertical-scroll-proportion="0.0" vertical-offset="105" max-vertical-offset="195">
-          <folding />
-        </state>
+        <state line="7" column="1" selection-start="131" selection-end="131" vertical-scroll-proportion="0.0" vertical-offset="105" max-vertical-offset="195" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/edu/berkeley/ischool/aep/ReverseTest.java">
@@ -776,9 +739,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/edu/berkeley/ischool/aep/Reverse.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="27" selection-start="266" selection-end="266" vertical-scroll-proportion="0.0" vertical-offset="240" max-vertical-offset="435">
-          <folding />
-        </state>
+        <state line="16" column="27" selection-start="266" selection-end="266" vertical-scroll-proportion="0.0" vertical-offset="240" max-vertical-offset="435" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/edu/berkeley/ischool/aep/ChanceTest.java">
@@ -805,9 +766,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/edu/berkeley/ischool/aep/Chance.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="31" column="50" selection-start="819" selection-end="819" vertical-scroll-proportion="0.0" vertical-offset="279" max-vertical-offset="810">
-          <folding />
-        </state>
+        <state line="31" column="50" selection-start="819" selection-end="819" vertical-scroll-proportion="0.0" vertical-offset="279" max-vertical-offset="810" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/edu/berkeley/ischool/aep/Bester.java">
@@ -822,9 +781,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/edu/berkeley/ischool/aep/Reverse.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="27" selection-start="266" selection-end="266" vertical-scroll-proportion="0.0" vertical-offset="240" max-vertical-offset="435">
-          <folding />
-        </state>
+        <state line="16" column="27" selection-start="266" selection-end="266" vertical-scroll-proportion="0.0" vertical-offset="240" max-vertical-offset="435" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/edu/berkeley/ischool/aep/ChanceTest.java">
@@ -863,23 +820,17 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/edu/berkeley/ischool/aep/RomanNumeral.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="28" selection-start="494" selection-end="494" vertical-scroll-proportion="0.0" vertical-offset="360" max-vertical-offset="1005">
-          <folding />
-        </state>
+        <state line="24" column="28" selection-start="494" selection-end="494" vertical-scroll-proportion="0.0" vertical-offset="360" max-vertical-offset="1005" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/edu/berkeley/ischool/aep/RomanNumeralTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="54" selection-start="462" selection-end="462" vertical-scroll-proportion="0.0" vertical-offset="270" max-vertical-offset="450">
-          <folding />
-        </state>
+        <state line="18" column="54" selection-start="462" selection-end="462" vertical-scroll-proportion="0.0" vertical-offset="270" max-vertical-offset="450" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/edu/berkeley/ischool/aep/Chance.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="42" column="0" selection-start="1075" selection-end="1075" vertical-scroll-proportion="0.0" vertical-offset="630" max-vertical-offset="765">
-          <folding />
-        </state>
+        <state line="42" column="0" selection-start="1075" selection-end="1075" vertical-scroll-proportion="0.0" vertical-offset="630" max-vertical-offset="765" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/edu/berkeley/ischool/aep/Rectangle.java">
@@ -901,9 +852,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/edu/berkeley/ischool/aep/Chance.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="42" column="0" selection-start="1075" selection-end="1075" vertical-scroll-proportion="0.0" vertical-offset="360" max-vertical-offset="765">
-          <folding />
-        </state>
+        <state line="42" column="0" selection-start="1075" selection-end="1075" vertical-scroll-proportion="0.0" vertical-offset="360" max-vertical-offset="765" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/aep.iml">
@@ -913,9 +862,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/edu/berkeley/ischool/aep/RomanNumeralTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="0" selection-start="59" selection-end="208" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="450">
-          <folding />
-        </state>
+        <state line="4" column="0" selection-start="59" selection-end="208" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="450" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/edu/berkeley/ischool/aep/Nominal.java">
@@ -938,69 +885,19 @@
         <state line="39" column="51" selection-start="698" selection-end="1013" vertical-scroll-proportion="0.0" vertical-offset="324" max-vertical-offset="750" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/edu/berkeley/ischool/aep/Arithmetic.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="0" selection-start="125" selection-end="125" vertical-scroll-proportion="0.22727273" vertical-offset="0" max-vertical-offset="495">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/edu/berkeley/ischool/aep/Rectangle.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="15" selection-start="454" selection-end="454" vertical-scroll-proportion="0.43699732" vertical-offset="137" max-vertical-offset="675">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/edu/berkeley/ischool/aep/Reverse.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="27" selection-start="266" selection-end="266" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="435">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/edu/berkeley/ischool/aep/Unit.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="80" column="0" selection-start="2232" selection-end="2232" vertical-scroll-proportion="0.0" vertical-offset="1217" max-vertical-offset="1590" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/edu/berkeley/ischool/aep/Bester.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="41" selection-start="600" selection-end="600" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="570" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/edu/berkeley/ischool/aep/ScaledQuantityTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="116" column="0" selection-start="3462" selection-end="3462" vertical-scroll-proportion="0.0" vertical-offset="1545" max-vertical-offset="1920" />
+        <state line="16" column="27" selection-start="266" selection-end="266" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="435" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/edu/berkeley/ischool/aep/Chance.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="31" column="50" selection-start="819" selection-end="819" vertical-scroll-proportion="0.0" vertical-offset="279" max-vertical-offset="810">
-          <folding />
-        </state>
+        <state line="31" column="50" selection-start="819" selection-end="819" vertical-scroll-proportion="0.0" vertical-offset="279" max-vertical-offset="810" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/edu/berkeley/ischool/aep/ReverseTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="24" column="0" selection-start="513" selection-end="513" vertical-scroll-proportion="0.596745" vertical-offset="0" max-vertical-offset="553" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/edu/berkeley/ischool/aep/ChanceTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="63" column="0" selection-start="1720" selection-end="1720" vertical-scroll-proportion="0.5052083" vertical-offset="519" max-vertical-offset="1095" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/edu/berkeley/ischool/aep/ScaledQuantity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="74" column="5" selection-start="1653" selection-end="1653" vertical-scroll-proportion="0.0" vertical-offset="1110" max-vertical-offset="1830">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/edu/berkeley/ischool/aep/RectangleTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="0" selection-start="59" selection-end="109" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="390" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/edu/berkeley/ischool/aep/Employees.java">
@@ -1010,58 +907,106 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/edu/berkeley/ischool/aep/TeeGroupAssigner.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="36" column="0" selection-start="796" selection-end="796" vertical-scroll-proportion="0.703125" vertical-offset="135" max-vertical-offset="780">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/edu/berkeley/ischool/aep/RomanNumeral.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="45" column="36" selection-start="1116" selection-end="1116" vertical-scroll-proportion="0.0" vertical-offset="406" max-vertical-offset="1005">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/edu/berkeley/ischool/aep/Bestable.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="1" selection-start="131" selection-end="131" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="195">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/edu/berkeley/ischool/aep/GolfTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="0" selection-start="35" selection-end="127" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="525">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
+        <state line="36" column="0" selection-start="796" selection-end="796" vertical-scroll-proportion="0.703125" vertical-offset="135" max-vertical-offset="780" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/edu/berkeley/ischool/aep/Golf.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="32" column="40" selection-start="780" selection-end="788" vertical-scroll-proportion="0.0" vertical-offset="324" max-vertical-offset="870">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state line="32" column="40" selection-start="780" selection-end="788" vertical-scroll-proportion="0.0" vertical-offset="324" max-vertical-offset="870" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/edu/berkeley/ischool/aep/RomanNumeral.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="45" column="36" selection-start="1116" selection-end="1116" vertical-scroll-proportion="0.4670139" vertical-offset="406" max-vertical-offset="1005" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/edu/berkeley/ischool/aep/GolfTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="0" selection-start="35" selection-end="127" vertical-scroll-proportion="0.052083332" vertical-offset="0" max-vertical-offset="576" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/edu/berkeley/ischool/aep/Bestable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="1" selection-start="131" selection-end="131" vertical-scroll-proportion="0.18229167" vertical-offset="0" max-vertical-offset="576" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/edu/berkeley/ischool/aep/RectangleTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="10" selection-start="435" selection-end="435" vertical-scroll-proportion="0.46112117" vertical-offset="0" max-vertical-offset="553">
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/edu/berkeley/ischool/aep/NodeTest.java">
+    <entry file="file://$PROJECT_DIR$/src/main/edu/berkeley/ischool/aep/Rectangle.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="39" column="24" selection-start="772" selection-end="777" vertical-scroll-proportion="0.0" vertical-offset="300" max-vertical-offset="1020">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state line="31" column="0" selection-start="170" selection-end="770" vertical-scroll-proportion="0.6354167" vertical-offset="99" max-vertical-offset="675">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/edu/berkeley/ischool/aep/Bester.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="24" column="41" selection-start="600" selection-end="600" vertical-scroll-proportion="0.0" vertical-offset="17" max-vertical-offset="570">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/edu/berkeley/ischool/aep/ScaledQuantity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="37" column="26" selection-start="928" selection-end="928" vertical-scroll-proportion="0.0" vertical-offset="210" max-vertical-offset="1830">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/edu/berkeley/ischool/aep/Unit.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="7" selection-start="192" selection-end="192" vertical-scroll-proportion="0.0" vertical-offset="60" max-vertical-offset="1590">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/edu/berkeley/ischool/aep/Arithmetic.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="61" selection-start="362" selection-end="411" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="495">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/edu/berkeley/ischool/aep/ScaledQuantityTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="67" column="43" selection-start="1856" selection-end="1889" vertical-scroll-proportion="0.0" vertical-offset="690" max-vertical-offset="1830">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/edu/berkeley/ischool/aep/ChanceTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="13" selection-start="356" selection-end="356" vertical-scroll-proportion="-0.71875" vertical-offset="519" max-vertical-offset="1095">
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/edu/berkeley/ischool/aep/Node.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="9" selection-start="349" selection-end="349" vertical-scroll-proportion="0.6060606" vertical-offset="15" max-vertical-offset="540">
+        <state line="55" column="5" selection-start="1325" selection-end="1325" vertical-scroll-proportion="0.0" vertical-offset="534" max-vertical-offset="1260">
+          <folding>
+            <element signature="e#156#162#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/edu/berkeley/ischool/aep/unReachableException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="0" selection-start="76" selection-end="139" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="195">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/edu/berkeley/ischool/aep/NodeTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="93" column="4" selection-start="1817" selection-end="1817" vertical-scroll-proportion="0.6212121" vertical-offset="1149" max-vertical-offset="1620">
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#211#217#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1123,7 +1068,6 @@
             <option name="proportions">
               <list>
                 <option value="0.2" />
-                <option value="0.6" />
               </list>
             </option>
           </splitter-proportions>

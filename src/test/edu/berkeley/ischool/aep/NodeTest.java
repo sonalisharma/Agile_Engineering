@@ -1,15 +1,14 @@
 package edu.berkeley.ischool.aep;
 
+import org.junit.Test;
+
+import static junit.framework.Assert.assertEquals;
+import static junit.framework.Assert.assertFalse;
+import static junit.framework.Assert.assertTrue;
+
 /**
  * Created by sonali on 4/11/14.
  */
-import org.junit.Test;
-
-import java.util.ArrayList;
-
-import static junit.framework.Assert.*;
-
-
 public class NodeTest {
 
     Node a = new Node();
@@ -24,59 +23,80 @@ public class NodeTest {
 
     public NodeTest()
     {
+        h.addChild(b);
+        b.addChild(a);
         a.addChild(f);
         b.addChild(c);
-        b.addChild(a);
         c.addChild(e);
         c.addChild(e);
         c.addChild(d);
         d.addChild(e);
         e.addChild(b);
-        h.addChild(b);
+
 
     }
 
     @Test
-    public void nodeShouldReachSelf()
-    {
-
+    public void nodeShouldReachSelf () {
         Node node = new Node();
         assertTrue(node.canReach(node));
     }
 
     @Test
-    public void nodeAShouldbeConnectToB()
-    {
-
-        a.addChild(b);
-        assertTrue(a.canReach(b));
+    public void nodeShouldBeAbleToReachChild () {
+        assertTrue(h.canReach(b));
     }
 
     @Test
-    public void nodeAShouldReachNodeC()
-    {
-        a.addChild(b);
-        b.addChild(c);
-        assertTrue(a.canReach(c));
-
-    }
-
-    @Test
-    public void nodeShouldNotBeAbleToReachUnreachableNode()
-    {
+    public void nodeShouldNotBeAbleToReachUnreachableNode() {
         assertFalse(b.canReach(g));
     }
 
-
     @Test
-    public void nodeShouldBeAbleToReachFurthestNode()
-    {
+    public void nodeShouldBeAbleToReachFurthestNode() {
         assertTrue(h.canReach(e));
     }
 
+    @Test
+    public void nodeHShouldBeAbleToReachNodeF() {
+        assertTrue(h.canReach(f));
+    }
+
+    @Test
+    public void hToCShouldBeTwoHops() {
+        assertEquals(2, h.hopsTo(c));
+    }
+
+    @Test
+    public void hToHShouldBeZeroHops() {
+        assertEquals(0, h.hopsTo(h));
+    }
 
 
+    @Test
+    public void bToEshouldBeTwoHopsNotThree()
+    {
+        assertEquals(2,b.hopsTo(e));
+    }
 
+
+    @Test
+    public void cToEshouldBeOneHopsNotTwo()
+    {
+        assertEquals(1,c.hopsTo(e));
+    }
+
+    @Test
+    public void hToEshouldBeThreeHopsNotTwo()
+    {
+        assertEquals(3, h.hopsTo(e));
+    }
+    
+    @Test(expected = RuntimeException.class)
+    public void hToGshouldBeImpossible()
+    {
+        assertEquals(3,h.hopsTo(g));
+    }
 
 
 }

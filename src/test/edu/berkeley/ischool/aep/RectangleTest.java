@@ -15,6 +15,6 @@ public class RectangleTest {
     {
         Rectangle rectangle = new Rectangle(5,2);
         assertEquals(10,rectangle.area());
-        assertEquals(12,rectangle.area());
+        //assertEquals(12,rectangle.area());
     }
 }
