@@ -23,15 +23,15 @@ public class NodeTest {
 
     public NodeTest()
     {
-        h.addChild(b);
-        b.addChild(a);
-        a.addChild(f);
-        b.addChild(c);
-        c.addChild(e);
-        c.addChild(e);
-        c.addChild(d);
-        d.addChild(e);
-        e.addChild(b);
+        h.addChild(new Link(b,0));
+        b.addChild(new Link(a,0));
+        a.addChild(new Link(f,0));
+        b.addChild(new Link(c,0));
+        c.addChild(new Link(e,0));
+        c.addChild(new Link(e,0));
+        c.addChild(new Link(d,0));
+        d.addChild(new Link(e,0));
+        e.addChild(new Link(b,0));
 
 
     }
@@ -91,12 +91,13 @@ public class NodeTest {
     {
         assertEquals(3, h.hopsTo(e));
     }
-    
+
     @Test(expected = RuntimeException.class)
     public void hToGshouldBeImpossible()
     {
         assertEquals(3,h.hopsTo(g));
     }
+
 
 
 }
