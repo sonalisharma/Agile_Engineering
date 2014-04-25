@@ -12,28 +12,7 @@ public class Node {
 
     public boolean canReach(Node to)
     {
-        return canReach(to, new HashSet<Node>());
-    }
-
-    private boolean canReach(Node n, HashSet<Node> visitedNodes) {
-
-        if(this ==n)
-        {
-            return true;
-        }
-        if(!visitedNodes.add(this)) return false;
-
-
-
-        for (Link link: children)
-        {
-            if(link.node.canReach(n, visitedNodes))
-            {
-                return true;
-            }
-        }
-        return false;
-
+        return hopsTo(to) != NO_PATH;
     }
 
     public int hopsTo(Node to) {
@@ -44,13 +23,13 @@ public class Node {
 
     }
 
-    private int hopsTo(Node node, Set<Node> visited)
+    protected int hopsTo(Node node, Set<Node> visited)
     {
         if (!visited.add(this)) return NO_PATH;
         if (node.equals(this)) return 0;
         int minChildHops = Integer.MAX_VALUE;
         for (Link link : children) {
-            int childHops = link.node.hopsTo(node, new HashSet<Node>(visited));
+            int childHops = link.hopsTo(node, new HashSet<Node>(visited));
             if (childHops < minChildHops) {
                 minChildHops = 1 + childHops;
             }

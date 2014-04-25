@@ -47,7 +47,7 @@ public class NodeTest {
         assertTrue(h.canReach(b));
     }
 
-    @Test
+    @Test(expected = RuntimeException.class)
     public void nodeShouldNotBeAbleToReachUnreachableNode() {
         assertFalse(b.canReach(g));
     }
